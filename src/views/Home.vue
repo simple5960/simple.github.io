@@ -75,6 +75,10 @@ export default defineComponent({
     }
 }
 .grid {
+  width: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   grid-template-columns: repeat(5, 1fr);
